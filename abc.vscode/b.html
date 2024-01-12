@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="c.css">
+
+    <script>
+        window.onload = function(){
+            const btnYellow = document.getElementById("button-yellow");
+            const btnRed = document.getElementById("button-red");
+            const btnBlue = document.getElementById("button-blue");
+            const JSdiv = document.getElementById("JSbox");
+
+            btnYellow.addEventListener("click", (e) => {
+                JSdiv.style.backgroundColor = "yellow";
+                console.log("Y");
+            });
+            btnRed.addEventListener("click", (e) => {
+                JSdiv.style.backgroundColor = "red";
+                console.log("Y");
+            });
+
+            btnBlue.addEventListener("click", (e) => {
+                JSdiv.style.backgroundColor = "blue";
+                console.log("Y");
+            });
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="in"> <!--div는 박스 생성-->
+        <h1>My Information</h1>
+        <hr>
+        <br>
+        <h2> Welcome to my page.</h2>
+        <h2> This page is the page that studying web.</h2>
+        <h2> And trying various project.</h2>
+        <hr>
+
+    </div>
+    <div class="p1"> 
+        <h1>Project 1</h1>
+        <hr>
+        <br>
+        <h2><mark>process</mark></h2>
+        <ol>
+            <li>사용자가 웹에 이미지 데이터를 넣는다.</li>
+            <li>웹 및 컴퓨터는 넣은 이미지를 변환하여 (이미 학습되어있는 인공지능)서버로 전송한다.</li>
+            <li>이미지를 전송받은 서버는 이미지를 판별한다.</li>
+            <li>서버는 이미지가 어떤 이미지인지 확인한 뒤 판별 결과를 다시 컴퓨터로 전송한다.</li>
+            <li>웹은 컴퓨터가 받은 결과를 다시 사용자에게 보여준다.</li>
+        </ol>
+        <!--<p>Hi</p> 
+        <p><strong>Hi</strong></p> -->
+        
+
+    </div>
+
+    <main>
+        <section id="introduce">
+            <div class="introduce__containner">
+                <img class="introduce__containner" src="tea.png" alt="logo">
+            </div>
+        </section>
+        <section id="api">
+            <div class="api__containner">
+                <div class="api__input__containner">
+                    <h1>이미지를 넣어주세요.</h1>
+                
+                </div>
+                <div class="api__result__containner">
+                    <h1>결과가 나옵니다.</h1>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--<div class="box2"> --> <!--class는 중복 가능-->
+        <!--<ul> --> <!--순서 x-->
+            <!--<li>학년</li>
+            <li style="color: darkmagenta;">학년</li>
+        </ul>
+        <ol><!--순서 O-->
+            <!--<li>학년</li>
+            <li style="color: darkmagenta;">학년</li>
+        </ol> -->
+
+    <!--</div>-->
+<!--<a href="https://www.google.com/" target="_blank">구글</a>
+
+    </div>
+    <div id = "JSbox">
+        <button id="button-yellow">qoq</button>
+        <button id="button-red">qoq</button>
+        <button id="button-blue">qoq</button>
+    </div>
+    -->
+    <footer id="contact">
+        <div class="contact__containner">
+            <p>사진 출처:https://padlet.com/tutorajh1/padlet-54afp6w62v0ukbsb</p>
+            <a href="a.html">메인 페이지로 돌아가기</a>
+        </div>
+    </footer>
+</body>
+</html>
